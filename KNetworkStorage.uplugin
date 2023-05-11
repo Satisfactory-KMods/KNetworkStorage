@@ -1,17 +1,39 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0",
+	"VersionName": "1.0.0",
+	"SemVersion": "1.0.0",
 	"FriendlyName": "KNetworkStorage",
 	"Description": "",
-	"Category": "Other",
-	"CreatedBy": "Kyri123",
-	"CreatedByURL": "",
+	"Category": "Modding",
+	"CreatedBy": "Kyri123/Kyrium",
+	"CreatedByURL": "https://github.com/Kyri123",
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "SML",
+			"SemVersion": "^3.4.1",
+			"Enabled": false
+		},
+		{
+			"Name": "KLib",
+			"SemVersion": "^2.7.3",
+			"bIsOptional": false,
+			"bIsBasePlugin": false,
+			"Enabled": true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "SatisfactoryPlus",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
 }
