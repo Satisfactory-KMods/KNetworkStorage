@@ -17,7 +17,7 @@ env:
     PLUGIN_NAMES_PARAM: '"KNetworkStorage" "KPrivateCodeLib" "KLib" "KUI" "KBFL"'
     WORKING_DIR: "C:\\Users\\Administrator\\Documents\\workflow"
     WEB_ACCESS_PATH: "C:\\xampp\\htdocs"
-    MOD_ID: "9muBparb6nMvpr"
+    MOD_ID: "BJMmmxovDKiKe"
 
 jobs:
     build-mod:
